@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#abc{
+    width: 80px;
+}
+
+nav ul{
+   
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+}
+
+nav ul a {
+   font-family: 'Poppins';
+   font-size: large;
+   line-height: 60px;
+   color: white;
+   list-style: none;
+   float: right;
+   width: 25%;
+   
+   ;
+}
+
+#omk{
+    margin-top: 30x;
+    width :33%;
+    padding: 6px;
+    float: left;
+    height: 635px;
+    margin-bottom: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  li{
+    padding: 10px;
+  }
+
+  a{
+    text-decoration: white;
+  }
+
+  .slider {
+    position: relative;
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    width: 400%;
+  }
+  .slides img {
+    width: 25%;
+    float: left;
+  }
+  .nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .prev, .next {
+    display: inline-block;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tenor-gif-embed{
+    height: 500px;
+    width: 600px;
+  }
+
+ 
+
+  
+ 
+  
+  #close-btn {
+    position: absolute;
+    top: 200px;
+    right: 130px;
+    padding: 5px;
+    background-color: #333;
+    color: #c91515;
+    border: none;
+    cursor: pointer;
+  }
